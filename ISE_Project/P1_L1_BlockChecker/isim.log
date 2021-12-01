@@ -1,0 +1,131 @@
+ISim log file
+Running: G:\MyWorkspace\Computer_Organization\ISE_Project\P1_L1_BlockChecker\BlockChecker_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 12 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker.v" Line 49
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 12 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker.v" Line 54
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 12 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker.v" Line 49
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 96 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 100
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 96 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 100
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 96 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 100
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 96 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 100
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 96 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 100
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 102 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 103
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 108
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 108
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 108
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 108
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 112 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 108
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 46 ns : File "G:/MyWorkspace/Computer_Organization/ISE_Project/P1_L1_BlockChecker/BlockChecker_tb.v" Line 75

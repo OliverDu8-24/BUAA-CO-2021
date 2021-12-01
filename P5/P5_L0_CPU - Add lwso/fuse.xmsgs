@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 122: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 220: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 305: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 369: Port <arg fmt="%s" index="1">rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 15: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 45: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 73: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+</messages>
+

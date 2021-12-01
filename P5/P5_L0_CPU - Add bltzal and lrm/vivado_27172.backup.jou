@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov 24 14:42:39 2021
+# Process ID: 27172
+# Current directory: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28108 F:\MyWorkspace\Computer_Organization\P5\P5_L0_CPU - 副本\P5_L0_CPU.xpr
+# Log file: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本/vivado.log
+# Journal file: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本/P5_L0_CPU.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config {F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本/mips_tb_behav.wcfg}
+source mips_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config {F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本/mips_tb_behav.wcfg}
+source mips_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - 副本/mips_tb_behav.wcfg}
+close_sim

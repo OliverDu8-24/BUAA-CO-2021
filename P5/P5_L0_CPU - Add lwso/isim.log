@@ -1,0 +1,254 @@
+ISim log file
+Running: F:\MyWorkspace\Computer_Organization\P5\P5_L0_CPU\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  29@00003020: $ 1 <= xxxxxxxx
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  29@00003020: $ 1 <= xxxxxxxx
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  29@00003020: $ 1 <= xxxxxxxx
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  29@00003020: $ 1 <= xxxxxxxx
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  19@00003010: *00000004 <= 0000000X
+                  21@00003014: *00000000 <= 0000000X
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  31@00003020: $ 1 <= xxxxxxxx
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= 00000001
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= 00000001
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 1 <= 00000001
+                  15@00003004: $ 2 <= 00000002
+                  17@00003008: $ 3 <= 00000003
+                  19@0000300c: $ 4 <= fffffffd
+                  19@00003010: *00000004 <= 00000003
+                  21@00003014: *00000000 <= 00000003
+                  25@00003018: $ 5 <= 00000003
+                  27@0000301c: $31 <= 00000003
+                  31@00003020: $ 1 <= 00000004
+                  33@00003024: $ 1 <= 00000004
+Stopped at time : 104 ns : File "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" Line 47

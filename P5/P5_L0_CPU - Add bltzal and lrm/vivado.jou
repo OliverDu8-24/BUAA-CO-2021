@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 30 22:30:45 2021
+# Process ID: 15404
+# Current directory: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - Add bltzal and lrm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10652 F:\MyWorkspace\Computer_Organization\P5\P5_L0_CPU - Add bltzal and lrm\P5_L0_CPU.xpr
+# Log file: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - Add bltzal and lrm/vivado.log
+# Journal file: F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - Add bltzal and lrm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU - Add bltzal and lrm/P5_L0_CPU.xpr}
+update_compile_order -fileset sources_1

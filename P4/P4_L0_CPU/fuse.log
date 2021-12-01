@@ -1,0 +1,34 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb_isim_beh.exe" -prj "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/NPC.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/IFU.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/GRF.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/EXT.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/DM.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CTRL.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CMP.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/ALU.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips.v" into library work
+Analyzing Verilog file "G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb.v" into library work
+Analyzing Verilog file "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module NPC
+Compiling module CMP
+Compiling module GRF
+Compiling module ALU
+Compiling module DM
+Compiling module EXT
+Compiling module CTRL
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 11 Verilog Units
+Built simulation executable G:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb_isim_beh.exe
+Fuse Memory Usage: 50056 KB
+Fuse CPU Usage: 843 ms

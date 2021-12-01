@@ -1,0 +1,3 @@
+verilog work "expression.v"
+verilog work "expression_tb.v"
+verilog work "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

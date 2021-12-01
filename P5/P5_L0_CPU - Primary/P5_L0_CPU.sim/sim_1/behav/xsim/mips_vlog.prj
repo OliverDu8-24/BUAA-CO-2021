@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../P5_L0_CPU.srcs/sources_1/new/DE_REG.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/D_CMP.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/D_EXT.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/D_GRF.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/D_NPC.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/EM_REG.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/E_ALU.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/FD_REG.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/F_IFU.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/MW_REG.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/M_DM.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/control.v" \
+"../../../../P5_L0_CPU.srcs/sources_1/new/mips.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/ALU.v,1637064210,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CMP.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,ALU,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CMP.v,1637136056,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CTRL.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,CMP,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/CTRL.v,1637137858,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/DM.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,CTRL,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/DM.v,1637139944,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/EXT.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,DM,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/EXT.v,1636686269,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/GRF.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,EXT,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/GRF.v,1636718062,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/IFU.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,GRF,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/IFU.v,1636718456,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/NPC.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,IFU,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/NPC.v,1636688595,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,NPC,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/P4_L0_CPU.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,1637135622,verilog,,,,,,,,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips.v,1636720195,verilog,,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb.v,F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/def.v,mips,,,../../../../,,,,,
+F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb.v,1637312563,verilog,,,,mips_tb,,,../../../../,,,,,

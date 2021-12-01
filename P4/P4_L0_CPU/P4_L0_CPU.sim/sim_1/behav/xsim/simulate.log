@@ -1,0 +1,7 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+@00003000: $ 2 <= 00000001
+@00003004: $ 1 <= 00000001
+@0000300c: $ 3 <= 0000000b
+@00003010: $ 2 <= 0000000c
+$finish called at time : 50 ns : File "F:/MyWorkspace/Computer_Organization/P4/P4_L0_CPU/mips_tb.v" Line 47

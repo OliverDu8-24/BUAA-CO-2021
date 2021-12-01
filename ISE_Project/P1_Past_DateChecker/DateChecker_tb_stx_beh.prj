@@ -1,0 +1,3 @@
+verilog isim_temp "DateChecker.v"
+verilog isim_temp "DateChecker_tb.v"
+verilog isim_temp "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

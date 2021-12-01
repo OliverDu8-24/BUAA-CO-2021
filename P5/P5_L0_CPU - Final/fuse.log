@@ -1,0 +1,51 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb_isim_beh.exe" -prj "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/control.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/M_DM.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/MW_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/F_IFU.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/FD_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/E_ALU.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/EM_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/D_NPC.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/D_GRF.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/D_EXT.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/D_CMP.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/DE_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 122: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 218: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 302: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips.v" Line 364: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 15: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 44: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/stall.v" Line 68: Port b_jump is not connected to this instance
+Completed static elaboration
+Compiling module control
+Compiling module stall
+Compiling module F_IFU
+Compiling module FD_REG
+Compiling module D_GRF
+Compiling module D_EXT
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module DE_REG
+Compiling module E_ALU
+Compiling module EM_REG
+Compiling module M_DM
+Compiling module MW_REG
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 16 Verilog Units
+Built simulation executable F:/MyWorkspace/Computer_Organization/P5/P5_L0_CPU/mips_tb_isim_beh.exe
+Fuse Memory Usage: 30272 KB
+Fuse CPU Usage: 390 ms
