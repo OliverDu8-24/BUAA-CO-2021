@@ -1,28 +1,28 @@
-ori $1, $0, 144
-ori $2, $0, 100
-ori $3, $0, 68
-ori $31, $0, 48
-addu $0,$3,$4
+ori $1, $0, 104
+ori $2, $0, 120
+ori $3, $0, 8
+ori $31, $0, 100
+addu $3,$1,$4
 jal subtest1
 nop
 back1:
-addu $2,$3,$4
+addu $3,$31,$4
 jal subtest2
 nop
 back2:
-addu $31,$0,$4
+addu $0,$0,$4
 jal subtest3
 nop
 back3:
-addu $3,$31,$4
+addu $2,$1,$4
 jal subtest4
 nop
 back4:
-addu $1,$0,$4
+addu $3,$0,$4
 jal subtest5
 nop
 back5:
-addu $3,$2,$4
+addu $2,$31,$4
 jal subtest6
 nop
 back6:
@@ -30,61 +30,63 @@ addu $31,$31,$4
 jal subtest7
 nop
 back7:
-addu $3,$0,$4
+addu $1,$31,$4
 jal subtest8
 nop
 back8:
-addu $2,$0,$4
+addu $0,$31,$4
 jal subtest9
 nop
 back9:
-addu $0,$2,$4
+addu $31,$3,$4
 jal subtest10
 nop
 back10:
-addu $3,$0,$4
+addu $31,$2,$4
 jal subtest11
 nop
 back11:
-addu $0,$31,$4
+addu $31,$0,$4
 jal subtest12
 nop
 back12:
-addu $31,$1,$4
+addu $1,$1,$4
 jal subtest13
 nop
 back13:
-addu $3,$31,$4
+addu $0,$1,$4
 jal subtest14
 nop
 back14:
-addu $0,$1,$4
+addu $0,$3,$4
 jal subtest15
 nop
 back15:
 
 subtest1:
-ori $2,$2,4
-subu $3,$3,$3
-lw $3,84($3)
-ori $31,$0,80
-ori $31,$0,20
-addu $1,$0,$1
-ori $3,$31,48
-beq $31,$2,endsubtest1
+ori $0,$0,40
+beq $1,$31,endsubtest1
 nop
-ori $0,$1,100
-subu $3,$3,$3
-lw $1,52($3)
-beq $0,$2,endsubtest1
-nop
-subu $3,$3,$3
-sw $2,108($3)
-addu $31,$2,$1
-ori $31,$3,84
-subu $31,$31,$31
 subu $2,$2,$2
-lw $0,112($2)
+lw $1,92($2)
+subu $3,$3,$3
+lw $3,56($3)
+beq $0,$31,endsubtest1
+nop
+beq $0,$31,endsubtest1
+nop
+subu $0,$1,$3
+subu $3,$3,$3
+sw $0,136($3)
+subu $2,$3,$2
+subu $3,$3,$3
+sw $0,108($3)
+subu $1,$1,$1
+lw $3,32($1)
+subu $3,$3,$3
+sw $31,44($3)
+ori $0,$31,84
+addu $3,$2,$2
 endsubtest1:
 la $ra, back1
 jr $ra
@@ -92,29 +94,30 @@ nop
 
 
 subtest2:
+addu $1,$2,$3
+ori $31,$31,144
+subu $0,$0,$0
+lw $2,108($0)
+beq $1,$2,endsubtest2
+nop
+beq $0,$2,endsubtest2
+nop
 subu $3,$3,$3
-sw $0,84($3)
-ori $31,$3,52
-subu $3,$3,$3
-lw $1,72($3)
-beq $1,$31,endsubtest2
+sw $0,24($3)
+beq $2,$3,endsubtest2
+nop
+beq $0,$0,endsubtest2
+nop
+beq $31,$1,endsubtest2
+nop
+beq $31,$3,endsubtest2
+nop
+beq $3,$1,endsubtest2
+nop
+beq $1,$2,endsubtest2
 nop
 subu $1,$1,$1
-lw $0,92($1)
-subu $0,$0,$0
-sw $0,112($0)
-subu $0,$0,$0
-sw $31,0($0)
-subu $0,$1,$1
-subu $2,$2,$2
-lw $0,132($2)
-subu $2,$2,$2
-sw $31,40($2)
-subu $1,$2,$0
-subu $1,$1,$1
-sw $2,92($1)
-subu $3,$3,$3
-sw $2,24($3)
+lw $31,100($1)
 endsubtest2:
 la $ra, back2
 jr $ra
@@ -122,31 +125,23 @@ nop
 
 
 subtest3:
-ori $31,$0,16
-subu $3,$3,$3
-lw $3,120($3)
-beq $2,$2,endsubtest3
-nop
-subu $3,$3,$3
-sw $1,84($3)
-subu $2,$2,$2
-sw $2,104($2)
-beq $3,$2,endsubtest3
-nop
-subu $31,$2,$31
-beq $1,$3,endsubtest3
-nop
-subu $1,$31,$0
-ori $0,$31,72
-subu $3,$0,$31
+ori $1,$0,12
+subu $0,$1,$3
+subu $3,$2,$3
 subu $0,$0,$0
-sw $1,116($0)
-subu $3,$3,$3
-sw $31,44($3)
-beq $2,$3,endsubtest3
-nop
-subu $3,$3,$3
-lw $3,132($3)
+lw $1,68($0)
+ori $3,$31,16
+subu $2,$2,$2
+lw $31,152($2)
+addu $1,$3,$2
+subu $1,$31,$3
+ori $2,$3,32
+subu $2,$2,$2
+lw $3,156($2)
+addu $0,$0,$2
+subu $0,$2,$2
+subu $1,$1,$1
+sw $1,76($1)
 endsubtest3:
 la $ra, back3
 jr $ra
@@ -154,29 +149,26 @@ nop
 
 
 subtest4:
-addu $1,$31,$1
-beq $1,$31,endsubtest4
-nop
-subu $1,$1,$1
-lw $0,64($1)
-beq $0,$1,endsubtest4
-nop
-addu $2,$0,$0
 subu $3,$3,$3
-lw $2,148($3)
-beq $3,$31,endsubtest4
-nop
-beq $0,$31,endsubtest4
+sw $31,132($3)
+subu $31,$31,$2
+subu $2,$1,$2
+ori $1,$3,52
+beq $3,$3,endsubtest4
 nop
 subu $2,$2,$2
-sw $3,8($2)
+lw $0,88($2)
+subu $0,$0,$1
 subu $3,$3,$3
-sw $1,120($3)
-addu $3,$0,$2
-subu $31,$0,$31
-addu $2,$2,$1
+lw $31,156($3)
+beq $1,$2,endsubtest4
+nop
+beq $0,$0,endsubtest4
+nop
 subu $0,$0,$0
-sw $31,36($0)
+sw $1,84($0)
+ori $0,$0,84
+ori $1,$3,112
 endsubtest4:
 la $ra, back4
 jr $ra
@@ -184,31 +176,25 @@ nop
 
 
 subtest5:
+subu $0,$0,$0
+sw $0,144($0)
+subu $2,$1,$31
+ori $3,$0,120
+subu $3,$0,$31
+addu $1,$0,$1
 subu $2,$2,$2
-sw $1,128($2)
-subu $3,$0,$3
-subu $3,$3,$3
-sw $0,156($3)
-subu $3,$3,$3
-lw $0,144($3)
-addu $1,$31,$1
+sw $31,136($2)
 subu $2,$2,$2
-lw $1,72($2)
-beq $3,$0,endsubtest5
+sw $31,16($2)
+beq $31,$31,endsubtest5
 nop
-subu $2,$2,$2
-lw $3,144($2)
-subu $3,$3,$3
-lw $0,140($3)
-ori $1,$2,80
-beq $31,$0,endsubtest5
+subu $0,$0,$0
+sw $3,28($0)
+beq $0,$1,endsubtest5
 nop
-subu $1,$1,$1
-sw $0,76($1)
-ori $0,$0,36
-subu $0,$0,$31
-subu $3,$3,$3
-sw $2,64($3)
+ori $1,$1,88
+ori $0,$1,36
+addu $31,$3,$31
 endsubtest5:
 la $ra, back5
 jr $ra
@@ -216,27 +202,27 @@ nop
 
 
 subtest6:
-addu $2,$31,$3
-subu $2,$3,$2
-ori $3,$0,16
-beq $0,$0,endsubtest6
-nop
-ori $3,$2,92
-subu $1,$1,$1
-lw $3,64($1)
-addu $0,$2,$3
-subu $1,$1,$1
-sw $0,40($1)
-addu $0,$0,$0
-subu $1,$1,$1
-lw $3,56($1)
-beq $0,$0,endsubtest6
-nop
-subu $1,$1,$1
-sw $31,124($1)
+ori $3,$0,156
+subu $0,$0,$0
+sw $0,4($0)
 subu $3,$3,$3
-lw $1,128($3)
-subu $31,$31,$3
+sw $1,116($3)
+subu $1,$0,$3
+beq $0,$1,endsubtest6
+nop
+subu $1,$1,$1
+sw $3,28($1)
+addu $0,$1,$2
+ori $31,$3,4
+subu $3,$3,$3
+sw $0,84($3)
+ori $2,$1,108
+subu $1,$1,$1
+sw $0,4($1)
+ori $3,$1,12
+subu $31,$0,$3
+subu $31,$1,$2
+subu $0,$3,$2
 endsubtest6:
 la $ra, back6
 jr $ra
@@ -244,28 +230,26 @@ nop
 
 
 subtest7:
-beq $1,$31,endsubtest7
-nop
-subu $3,$3,$3
-sw $2,8($3)
-addu $0,$3,$2
-addu $1,$31,$2
-subu $1,$1,$1
-sw $1,68($1)
-subu $3,$3,$3
-sw $2,124($3)
-subu $31,$31,$2
-subu $2,$2,$2
-lw $3,108($2)
-ori $31,$3,132
+addu $2,$2,$1
+addu $1,$2,$31
+subu $0,$0,$0
+sw $2,20($0)
+subu $0,$0,$0
+lw $1,72($0)
+subu $31,$0,$1
+subu $1,$1,$31
+addu $2,$2,$0
 beq $31,$0,endsubtest7
 nop
-beq $0,$0,endsubtest7
+ori $0,$3,148
+addu $0,$2,$0
+beq $31,$2,endsubtest7
 nop
-addu $0,$1,$1
 subu $3,$3,$3
-lw $1,48($3)
-ori $0,$2,64
+sw $0,156($3)
+subu $3,$3,$3
+sw $0,16($3)
+addu $31,$2,$1
 endsubtest7:
 la $ra, back7
 jr $ra
@@ -274,26 +258,28 @@ nop
 
 subtest8:
 subu $2,$2,$2
-lw $3,148($2)
-beq $2,$0,endsubtest8
-nop
-subu $3,$2,$3
-subu $3,$1,$0
+sw $31,156($2)
 subu $3,$3,$3
-sw $0,120($3)
-subu $31,$3,$31
-ori $0,$1,40
-addu $2,$3,$1
-addu $2,$31,$2
+lw $2,52($3)
+ori $3,$2,52
+beq $0,$2,endsubtest8
+nop
+subu $0,$0,$0
+lw $0,104($0)
+beq $1,$0,endsubtest8
+nop
+addu $0,$3,$2
+subu $3,$3,$3
+sw $0,12($3)
+addu $2,$3,$31
+subu $3,$3,$3
+lw $3,44($3)
+subu $1,$1,$1
+sw $3,68($1)
 beq $1,$31,endsubtest8
 nop
-subu $3,$3,$3
-sw $31,148($3)
-subu $1,$1,$1
-sw $0,20($1)
-subu $31,$0,$31
-ori $31,$2,8
-subu $0,$2,$0
+subu $3,$0,$1
+addu $3,$3,$3
 endsubtest8:
 la $ra, back8
 jr $ra
@@ -303,28 +289,26 @@ nop
 subtest9:
 beq $31,$0,endsubtest9
 nop
-subu $2,$2,$2
-sw $0,12($2)
-ori $3,$2,132
-subu $1,$2,$31
-subu $2,$2,$2
-lw $0,8($2)
-subu $3,$3,$3
-lw $0,8($3)
-ori $31,$1,16
-beq $2,$0,endsubtest9
-nop
-subu $31,$1,$1
+subu $0,$2,$31
+ori $3,$3,148
 subu $1,$1,$1
-sw $0,40($1)
-beq $2,$1,endsubtest9
-nop
-subu $2,$2,$2
-sw $2,140($2)
+lw $0,68($1)
+subu $1,$1,$1
+lw $1,36($1)
+ori $31,$1,20
+subu $3,$3,$3
+lw $1,60($3)
+subu $3,$3,$3
+lw $31,104($3)
 subu $0,$0,$0
-lw $1,32($0)
-subu $2,$2,$2
-lw $1,64($2)
+sw $2,80($0)
+subu $1,$1,$1
+lw $31,12($1)
+subu $3,$0,$3
+addu $0,$31,$1
+ori $3,$0,112
+subu $3,$3,$3
+lw $31,44($3)
 endsubtest9:
 la $ra, back9
 jr $ra
@@ -332,26 +316,24 @@ nop
 
 
 subtest10:
-subu $0,$0,$31
-subu $3,$2,$0
-subu $2,$2,$2
-lw $2,64($2)
-subu $3,$3,$3
-sw $31,124($3)
-addu $0,$0,$1
-beq $2,$0,endsubtest10
+addu $3,$1,$0
+beq $1,$1,endsubtest10
 nop
-subu $3,$3,$3
-sw $1,120($3)
-beq $31,$31,endsubtest10
-nop
-ori $0,$31,100
 subu $1,$1,$1
-subu $2,$0,$2
-ori $3,$2,24
-beq $2,$3,endsubtest10
+sw $31,4($1)
+beq $1,$31,endsubtest10
 nop
-ori $31,$2,104
+beq $0,$3,endsubtest10
+nop
+subu $31,$2,$2
+subu $3,$3,$3
+lw $3,36($3)
+subu $2,$31,$3
+subu $0,$3,$31
+addu $2,$31,$2
+addu $2,$31,$0
+beq $1,$0,endsubtest10
+nop
 endsubtest10:
 la $ra, back10
 jr $ra
@@ -359,25 +341,28 @@ nop
 
 
 subtest11:
-subu $0,$3,$2
-subu $1,$1,$1
-sw $1,68($1)
-beq $2,$2,endsubtest11
+beq $1,$2,endsubtest11
 nop
-ori $0,$2,80
-beq $0,$31,endsubtest11
-nop
-addu $1,$0,$0
-subu $1,$1,$1
-sw $0,152($1)
-ori $2,$0,8
-addu $2,$1,$31
-ori $0,$1,0
 subu $0,$0,$0
-lw $31,80($0)
-ori $1,$0,112
-ori $3,$1,96
-subu $1,$3,$31
+sw $1,152($0)
+subu $0,$0,$0
+sw $3,8($0)
+ori $31,$31,24
+ori $2,$2,120
+addu $3,$3,$1
+subu $3,$3,$3
+lw $0,44($3)
+ori $1,$1,28
+subu $0,$0,$0
+sw $3,156($0)
+subu $0,$1,$0
+addu $1,$2,$3
+beq $1,$3,endsubtest11
+nop
+subu $3,$3,$3
+lw $3,24($3)
+subu $2,$2,$2
+sw $0,4($2)
 endsubtest11:
 la $ra, back11
 jr $ra
@@ -385,25 +370,28 @@ nop
 
 
 subtest12:
-ori $3,$31,60
-beq $2,$0,endsubtest12
+ori $31,$1,28
+ori $0,$2,52
+addu $2,$0,$0
+subu $0,$31,$3
+beq $31,$0,endsubtest12
 nop
-addu $31,$31,$31
-subu $1,$31,$31
-subu $3,$3,$3
-lw $0,136($3)
-subu $3,$3,$3
-sw $0,4($3)
-ori $1,$3,44
-subu $2,$31,$31
-subu $3,$3,$3
-lw $0,124($3)
-subu $0,$2,$31
-beq $1,$3,endsubtest12
+addu $3,$0,$0
+addu $2,$2,$3
+subu $2,$2,$2
+lw $1,136($2)
+beq $2,$31,endsubtest12
 nop
-ori $3,$1,108
+beq $0,$3,endsubtest12
+nop
+ori $31,$0,48
+subu $1,$1,$1
+lw $31,128($1)
+beq $3,$0,endsubtest12
+nop
+ori $31,$0,144
 subu $0,$0,$0
-sw $31,52($0)
+lw $0,108($0)
 endsubtest12:
 la $ra, back12
 jr $ra
@@ -411,26 +399,28 @@ nop
 
 
 subtest13:
-subu $1,$1,$1
-sw $0,4($1)
+beq $0,$1,endsubtest13
+nop
+beq $2,$3,endsubtest13
+nop
+ori $3,$1,0
+subu $3,$1,$1
+subu $0,$0,$3
 subu $3,$3,$3
-sw $2,132($3)
-addu $2,$1,$0
-addu $31,$31,$31
+lw $3,56($3)
+addu $31,$31,$0
+ori $2,$3,60
+subu $0,$0,$0
+sw $1,96($0)
+subu $3,$3,$3
+lw $2,36($3)
 subu $2,$2,$2
-lw $3,156($2)
-ori $1,$0,92
-subu $2,$0,$31
+lw $3,124($2)
+subu $2,$2,$2
+sw $3,152($2)
+addu $2,$1,$0
 subu $3,$3,$3
-sw $2,112($3)
-subu $3,$3,$3
-lw $2,152($3)
-subu $1,$1,$1
-lw $3,100($1)
-beq $3,$0,endsubtest13
-nop
-beq $31,$31,endsubtest13
-nop
+sw $31,144($3)
 endsubtest13:
 la $ra, back13
 jr $ra
@@ -438,25 +428,26 @@ nop
 
 
 subtest14:
-addu $1,$1,$0
-addu $31,$1,$1
-ori $1,$2,88
-addu $1,$0,$2
-subu $3,$3,$3
-sw $1,136($3)
-subu $3,$3,$3
-sw $31,148($3)
-subu $0,$0,$0
-sw $2,100($0)
-subu $2,$2,$2
-sw $0,28($2)
-subu $0,$0,$0
-lw $31,112($0)
-beq $31,$1,endsubtest14
+beq $0,$1,endsubtest14
 nop
-subu $1,$31,$31
+ori $2,$2,140
+ori $31,$2,40
 subu $1,$1,$1
-lw $1,124($1)
+sw $0,44($1)
+subu $2,$2,$2
+sw $3,132($2)
+ori $3,$1,80
+addu $3,$31,$1
+subu $31,$31,$0
+beq $2,$3,endsubtest14
+nop
+subu $2,$2,$2
+lw $1,144($2)
+subu $3,$0,$3
+subu $0,$1,$3
+beq $2,$0,endsubtest14
+nop
+addu $2,$0,$3
 endsubtest14:
 la $ra, back14
 jr $ra
@@ -464,29 +455,27 @@ nop
 
 
 subtest15:
-beq $2,$3,endsubtest15
-nop
-subu $3,$3,$3
-sw $1,116($3)
-ori $0,$1,60
-addu $0,$1,$3
-subu $3,$31,$1
-subu $1,$1,$1
-lw $0,136($1)
-beq $1,$2,endsubtest15
-nop
-subu $1,$1,$1
-lw $2,144($1)
-beq $1,$0,endsubtest15
+beq $31,$0,endsubtest15
 nop
 subu $0,$0,$0
-lw $3,124($0)
+lw $2,8($0)
 beq $3,$0,endsubtest15
 nop
-ori $1,$2,40
-beq $2,$31,endsubtest15
+subu $2,$2,$31
+subu $3,$0,$3
+beq $0,$3,endsubtest15
 nop
-subu $31,$3,$0
+subu $2,$31,$31
+ori $3,$3,120
+addu $1,$2,$3
+addu $1,$0,$0
+beq $31,$0,endsubtest15
+nop
+subu $3,$3,$3
+lw $31,8($3)
+subu $3,$3,$0
+beq $31,$0,endsubtest15
+nop
 endsubtest15:
 la $ra, back15
 jr $ra

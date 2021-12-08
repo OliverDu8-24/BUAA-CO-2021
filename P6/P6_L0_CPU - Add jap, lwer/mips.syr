@@ -1,0 +1,371 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\control.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <control>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <stall>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\M_DE.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <M_DE>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\M_BE.v" into library work
+Parsing verilog file "def.v" included at line 2.
+WARNING:HDLCompiler:572 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\M_BE.v" Line 4: Macro <word> is redefined.
+WARNING:HDLCompiler:572 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\M_BE.v" Line 5: Macro <half_word> is redefined.
+WARNING:HDLCompiler:572 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\M_BE.v" Line 6: Macro <byte> is redefined.
+Parsing module <M_BE>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\MW_REG.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <MW_REG>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\F_PC.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <F_PC>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\FD_REG.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <FD_REG>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\E_MDU.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <E_MDU>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\E_ALU.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <E_ALU>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\EM_REG.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing verilog file "def.v" included at line 5.
+Parsing module <EM_REG>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\D_NPC.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <D_NPC>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\D_GRF.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <D_GRF>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\D_EXT.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <D_EXT>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\D_CMP.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <D_CMP>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\DE_REG.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <DE_REG>.
+Analyzing Verilog file "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" into library work
+Parsing verilog file "def.v" included at line 2.
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 146: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 248: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 360: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 380: Port DMWrEn is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 431: Port rt is not connected to this instance
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 19: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 51: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 77: Port b_jump is not connected to this instance
+
+Elaborating module <stall>.
+
+Elaborating module <control>.
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 30: Assignment to D_shift_v ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 33: Assignment to D_jump_addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 34: Assignment to D_jump_link ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 57: Assignment to E_store ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 60: Assignment to E_shift_s ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 61: Assignment to E_shift_v ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 62: Assignment to E_branch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 63: Assignment to E_jump_reg ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 64: Assignment to E_jump_addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 65: Assignment to E_jump_link ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 67: Assignment to E_mt ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 83: Assignment to M_store ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 84: Assignment to M_calc_r ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 85: Assignment to M_calc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 86: Assignment to M_shift_s ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 87: Assignment to M_shift_v ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 88: Assignment to M_branch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 89: Assignment to M_jump_reg ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 90: Assignment to M_jump_addr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 91: Assignment to M_jump_link ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 92: Assignment to M_mf ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 93: Assignment to M_mt ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 19: Input port b_jump is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 51: Input port b_jump is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\stall.v" Line 77: Input port b_jump is not connected on this instance
+
+Elaborating module <F_PC>.
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 114: Assignment to i_inst_addr ignored, since the identifier is never used
+
+Elaborating module <FD_REG>.
+
+Elaborating module <D_GRF>.
+
+Elaborating module <D_EXT>.
+
+Elaborating module <D_CMP>.
+
+Elaborating module <D_NPC>.
+
+Elaborating module <DE_REG>.
+
+Elaborating module <E_ALU>.
+
+Elaborating module <E_MDU>.
+ERROR:HDLCompiler:1401 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\E_MDU.v" Line 29: Signal HI[31] in unit E_MDU is connected to following multiple drivers:
+Driver 0: output signal HI[31] of instance Flip-flop (HI).
+Driver 1: output signal HI[31] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[30] of instance Flip-flop (HI).
+Driver 1: output signal HI[30] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[29] of instance Flip-flop (HI).
+Driver 1: output signal HI[29] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[28] of instance Flip-flop (HI).
+Driver 1: output signal HI[28] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[27] of instance Flip-flop (HI).
+Driver 1: output signal HI[27] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[26] of instance Flip-flop (HI).
+Driver 1: output signal HI[26] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[25] of instance Flip-flop (HI).
+Driver 1: output signal HI[25] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[24] of instance Flip-flop (HI).
+Driver 1: output signal HI[24] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[23] of instance Flip-flop (HI).
+Driver 1: output signal HI[23] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[22] of instance Flip-flop (HI).
+Driver 1: output signal HI[22] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[21] of instance Flip-flop (HI).
+Driver 1: output signal HI[21] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[20] of instance Flip-flop (HI).
+Driver 1: output signal HI[20] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[19] of instance Flip-flop (HI).
+Driver 1: output signal HI[19] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[18] of instance Flip-flop (HI).
+Driver 1: output signal HI[18] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[17] of instance Flip-flop (HI).
+Driver 1: output signal HI[17] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[16] of instance Flip-flop (HI).
+Driver 1: output signal HI[16] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[15] of instance Flip-flop (HI).
+Driver 1: output signal HI[15] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[14] of instance Flip-flop (HI).
+Driver 1: output signal HI[14] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[13] of instance Flip-flop (HI).
+Driver 1: output signal HI[13] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[12] of instance Flip-flop (HI).
+Driver 1: output signal HI[12] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[11] of instance Flip-flop (HI).
+Driver 1: output signal HI[11] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[10] of instance Flip-flop (HI).
+Driver 1: output signal HI[10] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[9] of instance Flip-flop (HI).
+Driver 1: output signal HI[9] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[8] of instance Flip-flop (HI).
+Driver 1: output signal HI[8] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[7] of instance Flip-flop (HI).
+Driver 1: output signal HI[7] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[6] of instance Flip-flop (HI).
+Driver 1: output signal HI[6] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[5] of instance Flip-flop (HI).
+Driver 1: output signal HI[5] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[4] of instance Flip-flop (HI).
+Driver 1: output signal HI[4] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[3] of instance Flip-flop (HI).
+Driver 1: output signal HI[3] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[2] of instance Flip-flop (HI).
+Driver 1: output signal HI[2] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[1] of instance Flip-flop (HI).
+Driver 1: output signal HI[1] of instance Flip-flop (_i000055).
+Driver 0: output signal HI[0] of instance Flip-flop (HI).
+Driver 1: output signal HI[0] of instance Flip-flop (_i000055).
+Driver 0: output signal LO[31] of instance Flip-flop (LO).
+Driver 1: output signal LO[31] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[30] of instance Flip-flop (LO).
+Driver 1: output signal LO[30] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[29] of instance Flip-flop (LO).
+Driver 1: output signal LO[29] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[28] of instance Flip-flop (LO).
+Driver 1: output signal LO[28] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[27] of instance Flip-flop (LO).
+Driver 1: output signal LO[27] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[26] of instance Flip-flop (LO).
+Driver 1: output signal LO[26] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[25] of instance Flip-flop (LO).
+Driver 1: output signal LO[25] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[24] of instance Flip-flop (LO).
+Driver 1: output signal LO[24] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[23] of instance Flip-flop (LO).
+Driver 1: output signal LO[23] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[22] of instance Flip-flop (LO).
+Driver 1: output signal LO[22] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[21] of instance Flip-flop (LO).
+Driver 1: output signal LO[21] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[20] of instance Flip-flop (LO).
+Driver 1: output signal LO[20] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[19] of instance Flip-flop (LO).
+Driver 1: output signal LO[19] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[18] of instance Flip-flop (LO).
+Driver 1: output signal LO[18] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[17] of instance Flip-flop (LO).
+Driver 1: output signal LO[17] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[16] of instance Flip-flop (LO).
+Driver 1: output signal LO[16] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[15] of instance Flip-flop (LO).
+Driver 1: output signal LO[15] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[14] of instance Flip-flop (LO).
+Driver 1: output signal LO[14] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[13] of instance Flip-flop (LO).
+Driver 1: output signal LO[13] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[12] of instance Flip-flop (LO).
+Driver 1: output signal LO[12] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[11] of instance Flip-flop (LO).
+Driver 1: output signal LO[11] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[10] of instance Flip-flop (LO).
+Driver 1: output signal LO[10] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[9] of instance Flip-flop (LO).
+Driver 1: output signal LO[9] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[8] of instance Flip-flop (LO).
+Driver 1: output signal LO[8] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[7] of instance Flip-flop (LO).
+Driver 1: output signal LO[7] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[6] of instance Flip-flop (LO).
+Driver 1: output signal LO[6] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[5] of instance Flip-flop (LO).
+Driver 1: output signal LO[5] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[4] of instance Flip-flop (LO).
+Driver 1: output signal LO[4] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[3] of instance Flip-flop (LO).
+Driver 1: output signal LO[3] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[2] of instance Flip-flop (LO).
+Driver 1: output signal LO[2] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[1] of instance Flip-flop (LO).
+Driver 1: output signal LO[1] of instance Flip-flop (_i000057).
+Driver 0: output signal LO[0] of instance Flip-flop (LO).
+Driver 1: output signal LO[0] of instance Flip-flop (_i000057).
+Module E_MDU remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\E_MDU.v" Line 4: Empty module <E_MDU> remains a black box.
+
+Elaborating module <EM_REG>.
+WARNING:HDLCompiler:1127 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 346: Assignment to M_ext32 ignored, since the identifier is never used
+
+Elaborating module <M_BE>.
+
+Elaborating module <M_DE>.
+
+Elaborating module <MW_REG>.
+WARNING:HDLCompiler:552 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 146: Input port b_jump is not connected on this instance
+WARNING:HDLCompiler:552 - "F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU\mips.v" Line 380: Input port DMWrEn is not connected on this instance
+--> 
+
+Total memory usage is 4547212 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

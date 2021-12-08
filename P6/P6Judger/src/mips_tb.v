@@ -61,7 +61,7 @@ module mips_txt;
         clk = 0;
         reset = 1;
         #20 reset = 0;
-		#40960; $finish;
+		#409600; $finish;
     end
 
     always @(*) begin

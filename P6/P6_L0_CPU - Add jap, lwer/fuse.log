@@ -1,0 +1,57 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips_txt_isim_beh.exe" -prj "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips_txt_beh.prj" "work.mips_txt" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/control.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/stall.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/M_DE.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/M_BE.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/MW_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/F_PC.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/FD_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/E_MDU.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/E_ALU.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/EM_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/D_NPC.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/D_GRF.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/D_EXT.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/D_CMP.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/DE_REG.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" into library work
+Analyzing Verilog file "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips_tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" Line 146: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" Line 251: Port rd is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" Line 367: Port rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" Line 392: Port DMWrEn is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips.v" Line 451: Port rt is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/stall.v" Line 19: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/stall.v" Line 52: Port b_jump is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/stall.v" Line 82: Port b_jump is not connected to this instance
+Completed static elaboration
+Compiling module control
+Compiling module stall
+Compiling module F_PC
+Compiling module FD_REG
+Compiling module D_GRF
+Compiling module D_EXT
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module DE_REG
+Compiling module E_ALU
+Compiling module E_MDU
+Compiling module EM_REG
+Compiling module M_BE
+Compiling module M_DE
+Compiling module MW_REG
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips_txt_isim_beh.exe
+Fuse Memory Usage: 32904 KB
+Fuse CPU Usage: 859 ms

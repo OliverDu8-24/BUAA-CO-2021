@@ -1,0 +1,57 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "E:\iverilog\lib\ivl\system.vpi";
+:vpi_module "E:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "E:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "E:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "E:\iverilog\lib\ivl\va_math.vpi";
+S_000001ac10ab6940 .scope module, "sign_test" "sign_test" 2 3;
+ .timescale -9 -12;
+v000001ac10ab7170_0 .var "a", 7 0;
+v000001ac10ab9ff0_0 .var "b", 7 0;
+v000001ac10ab6ad0_0 .var "d1", 7 0;
+v000001ac10ab6b70_0 .var "d2", 7 0;
+v000001ac10ab6c10_0 .var "t_a", 7 0;
+v000001ac109d4550_0 .var "t_b", 7 0;
+    .scope S_000001ac10ab6940;
+T_0 ;
+    %pushi/vec4 253, 0, 8;
+    %store/vec4 v000001ac10ab6ad0_0, 0, 8;
+    %pushi/vec4 251, 0, 8;
+    %store/vec4 v000001ac10ab6b70_0, 0, 8;
+    %vpi_call 2 10 "$display", "%b", 16'b1111111111111111 {0 0 0};
+    %pushi/vec4 15, 0, 16;
+    %split/vec4 8;
+    %store/vec4 v000001ac109d4550_0, 0, 8;
+    %store/vec4 v000001ac10ab6c10_0, 0, 8;
+    %vpi_call 2 12 "$display", "%b", 16'b1111100000001111 {0 0 0};
+    %vpi_call 2 13 "$display", "%b %b", v000001ac10ab6c10_0, v000001ac109d4550_0 {0 0 0};
+    %load/vec4 v000001ac10ab6c10_0;
+    %load/vec4 v000001ac109d4550_0;
+    %concat/vec4; draw_concat_vec4
+    %vpi_call 2 14 "$display", "%b", S<0,vec4,u16> {1 0 0};
+    %vpi_call 2 15 "$display", "%b", 16'sb1111100000001111 {0 0 0};
+    %vpi_call 2 16 "$display", "%d", 16'b0000000000001111 {0 0 0};
+    %pushi/vec4 0, 0, 16;
+    %load/vec4 v000001ac10ab6ad0_0;
+    %pad/s 16;
+    %load/vec4 v000001ac10ab6b70_0;
+    %pad/s 16;
+    %mul;
+    %add;
+    %split/vec4 8;
+    %store/vec4 v000001ac10ab9ff0_0, 0, 8;
+    %store/vec4 v000001ac10ab7170_0, 0, 8;
+    %load/vec4 v000001ac10ab7170_0;
+    %load/vec4 v000001ac10ab9ff0_0;
+    %concat/vec4; draw_concat_vec4
+    %vpi_call 2 18 "$display", "%d", S<0,vec4,u16> {1 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "sign_test.v";

@@ -1,0 +1,354 @@
+ISim log file
+Running: F:\MyWorkspace\Computer_Organization\P6\P6_L0_CPU - Add jap, lwer\mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/MyWorkspace/Computer_Organization/P6/P6_L0_CPU - Add jap, lwer/mips_txt_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $31 <= 0000300c
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003014: $29 <= 00000024
+                  54@00003018: $31 <= 00003020
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $31 <= 0000300c
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003014: $29 <= 00000024
+                  54@00003018: $31 <= 00003020
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 138@00003048: $ 4 <= 0000000f
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@00003050: *00000000 <= 0000ffff
+                 138@0000304c: $ 1 <= 0000ffff
+                 146@00003054: $31 <= 00003058
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@0000304c: $ 1 <= 7fff0000
+                 142@00003054: *00000000 <= 7fffffff
+                 142@00003050: $ 1 <= 7fffffff
+                 150@00003058: $31 <= 0000305c
+                 158@0000305c: $ 2 <= 0000306b
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@0000304c: $ 1 <= 7fff0000
+                 142@00003054: *00000000 <= 7fffffff
+                 142@00003050: $ 1 <= 7fffffff
+                 150@00003058: $ 2 <= ffffffff
+                 158@0000305c: $ 2 <= ffffffff
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@0000304c: $ 1 <= 7fff0000
+                 142@00003054: *00000000 <= 7fffffff
+                 142@00003050: $ 1 <= 7fffffff
+                 150@00003058: $ 2 <= ffffffff
+                 158@0000305c: $ 2 <= ffffffff
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@0000304c: $ 1 <= 7fff0000
+                 142@00003054: *00000000 <= 7fffffff
+                 142@00003050: $ 1 <= 7fffffff
+                 150@00003058: $ 2 <= ffffffff
+                 158@0000305c: $ 2 <= ffffffff
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003004: *00000014 <= 0000300c
+                  38@00003000: $29 <= 00000014
+                  42@00003004: $29 <= 00000010
+                  46@00003008: $ 1 <= 0000ffff
+                  50@00003018: *00000020 <= 00003020
+                  50@00003014: $29 <= 00000020
+                  54@00003018: $29 <= 0000001c
+                  58@0000301c: $ 4 <= 0000ffff
+                  62@00003028: $ 1 <= 00000001
+                  66@0000302c: $ 2 <= 0000000f
+                  74@00003034: $ 1 <= fffffffe
+                  78@00003038: $ 2 <= 0000000f
+                 126@00003040: $ 4 <= fffffff1
+                 130@00003044: $12 <= 0000300c
+                 134@00003048: $ 4 <= fffffffe
+                 138@0000304c: $ 1 <= 00000001
+                 142@00003054: *00000000 <= 00000001
+                 142@00003050: $ 2 <= 00000000
+                 150@00003058: $31 <= 0000305c
+                 158@0000305c: $ 2 <= 0000305c
