@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/DE_REG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/DE_REG.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/DE_REG.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_CMP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_CMP.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_CMP.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_EXT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_EXT.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_EXT.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_GRF.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_GRF.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_GRF.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_NPC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_NPC.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/D_NPC.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/EM_REG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/EM_REG.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/EM_REG.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/EM_REG.v</arg>&quot; Line <arg fmt="%d" index="2">5</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/EM_REG.v&quot; line 5
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_ALU.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_ALU.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_MDU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_MDU.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/E_MDU.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/FD_REG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/FD_REG.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/FD_REG.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/F_PC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/F_PC.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/F_PC.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/MW_REG.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/MW_REG.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/MW_REG.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_BE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_BE.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_BE.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_DE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_DE.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/M_DE.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/P7_standard_timer_2019.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/control.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/control.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips_CPU.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">mips_CPU.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;mips_CPU.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips_Bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips_CP0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/stall.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/stall.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/def.v&apos; in file &quot;F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/stall.v&quot; line 2
+</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="572" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\M_BE.v" Line 4: Macro &lt;<arg fmt="%s" index="1">word</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\M_BE.v" Line 5: Macro &lt;<arg fmt="%s" index="1">half_word</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\M_BE.v" Line 6: Macro &lt;<arg fmt="%s" index="1">byte</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\mips_Bridge.v" Line 5: Macro &lt;<arg fmt="%s" index="1">StartAddrTC1</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\mips_Bridge.v" Line 6: Macro &lt;<arg fmt="%s" index="1">EndAddrTC1</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"mips_CPU.v" Line 182: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"mips_CPU.v" Line 241: Port <arg fmt="%s" index="1">F_DelaySlot</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"mips_CPU.v" Line 308: Port <arg fmt="%s" index="1">rd</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"mips_CPU.v" Line 448: Port <arg fmt="%s" index="1">rs</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"mips_CPU.v" Line 581: Port <arg fmt="%s" index="1">rt</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 20: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 57: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 89: Port <arg fmt="%s" index="1">b_jump</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 31: Assignment to <arg fmt="%s" index="1">D_shift_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 34: Assignment to <arg fmt="%s" index="1">D_jump_addr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 35: Assignment to <arg fmt="%s" index="1">D_jump_link</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 42: Assignment to <arg fmt="%s" index="1">D_mfc0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 64: Assignment to <arg fmt="%s" index="1">E_store</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 67: Assignment to <arg fmt="%s" index="1">E_shift_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 68: Assignment to <arg fmt="%s" index="1">E_shift_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 69: Assignment to <arg fmt="%s" index="1">E_branch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 70: Assignment to <arg fmt="%s" index="1">E_jump_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 71: Assignment to <arg fmt="%s" index="1">E_jump_addr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 72: Assignment to <arg fmt="%s" index="1">E_jump_link</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 74: Assignment to <arg fmt="%s" index="1">E_mt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 76: Assignment to <arg fmt="%s" index="1">E_eret</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 96: Assignment to <arg fmt="%s" index="1">M_store</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 97: Assignment to <arg fmt="%s" index="1">M_calc_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 98: Assignment to <arg fmt="%s" index="1">M_calc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 99: Assignment to <arg fmt="%s" index="1">M_shift_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 100: Assignment to <arg fmt="%s" index="1">M_shift_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 101: Assignment to <arg fmt="%s" index="1">M_branch</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 102: Assignment to <arg fmt="%s" index="1">M_jump_reg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 103: Assignment to <arg fmt="%s" index="1">M_jump_addr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 104: Assignment to <arg fmt="%s" index="1">M_jump_link</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 105: Assignment to <arg fmt="%s" index="1">M_mf</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 106: Assignment to <arg fmt="%s" index="1">M_mt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 108: Assignment to <arg fmt="%s" index="1">M_eret</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 20: Input port <arg fmt="%s" index="1">b_jump</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 57: Input port <arg fmt="%s" index="1">b_jump</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\stall.v" Line 89: Input port <arg fmt="%s" index="1">b_jump</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\DE_REG.v" Line 55: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"mips_CPU.v" Line 316: Assignment to <arg fmt="%s" index="1">E_eret</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\E_MDU.v" Line 30: Signal <arg fmt="%s" index="1">HI[31]</arg> in unit <arg fmt="%s" index="2">E_MDU</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\E_MDU.v" Line 4: Empty module &lt;<arg fmt="%s" index="1">E_MDU</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"mips_CPU.v" Line 428: Assignment to <arg fmt="%s" index="1">M_ext32</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"mips_CPU.v" Line 182: Input port <arg fmt="%s" index="1">b_jump</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:\MyWorkspace\Computer_Organization\P7\P7_L0_CPU\mips.v" Line 67: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+</messages>
+

@@ -1,0 +1,7 @@
+WARNING: .\tb.v:70: $readmemh(code.txt): Not enough words in the file for the requested range [0:5119].
+WARNING: .\tb.v:71: $readmemh(code_handler.txt): Not enough words in the file for the requested range [1120:3046].
+                  38@00003000: $ 7 <= 0000fc01
+                  46@00003008: $ 5 <= 00005432
+                  50@0000300c: $ 6 <= 0000ba98
+                  54@00003010: $ 6 <= 00000000
+.\tb.v:55: $finish called at 40980000 (1ps)

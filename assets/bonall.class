@@ -1,9 +1,0 @@
-bonall = function(a, b, c)
-	setgpr(31, getpc() + 8)
-	if(getgpr(a) == - getgpr(b)) then
-		branch(c)
-	else
-		jump((getpc() + 8))
-	end
-end
-register_instruction("bonall $t1,$t2,label", "I", "101010 fffff sssss tttttttttttttttt", bonall)

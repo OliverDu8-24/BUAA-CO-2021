@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/MyWorkspace/Computer_Organization/P7/P7_L0_CPU/mips_txt_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_txt" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/mips_txt/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/TestIntResponse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TestIntResponse</obj_property>
+      <obj_property name="ObjectShortName">TestIntResponse</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">Fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/F_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/F_Instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_Instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider26" type="divider">
+      <obj_property name="label">Decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/D_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/D_rs_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_rs_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rs_addr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/D_rt_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_rt_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rt_addr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/D_rs_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_rs_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rs_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/D_rt_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_rt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_rt_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider31" type="divider">
+      <obj_property name="label">Execute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_ext32" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_ext32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_ext32[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_FWD_rs_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_FWD_rs_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_FWD_rs_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_FWD_rt_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_FWD_rt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_FWD_rt_data[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_ALUA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_ALUA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_ALUA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_CTRL/ALUBSel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUBSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUBSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_ALUB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_ALUB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_ALUB[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/E_ALUAns" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_ALUAns[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_ALUAns[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider40" type="divider">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/M_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/_cp0/isInDelaySlot" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">isInDelaySlot</obj_property>
+      <obj_property name="ObjectShortName">isInDelaySlot</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/M_EXC_AdEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_EXC_AdEL</obj_property>
+      <obj_property name="ObjectShortName">M_EXC_AdEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/_cp0/Cause" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Cause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Cause[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/Req" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Req</obj_property>
+      <obj_property name="ObjectShortName">Req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/M_CP0WrEn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_CP0WrEn</obj_property>
+      <obj_property name="ObjectShortName">M_CP0WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/_cp0/SR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider41" type="divider">
+      <obj_property name="label">Write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/_cpu/W_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
